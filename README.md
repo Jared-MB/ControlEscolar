@@ -47,6 +47,12 @@ pnpm import
 pnpm install
 ```
 
+- Crear .env en el directorio client con el siguiente contenido:
+
+```bash
+VITE_BACKEND_URL=http://127.0.0.1:8000/api/
+```
+
 - Iniciar el servidor de desarrollo
 
 ```bash
